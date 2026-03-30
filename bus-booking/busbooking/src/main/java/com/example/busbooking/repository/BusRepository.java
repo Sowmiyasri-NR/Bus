@@ -1,8 +1,0 @@
-package com.example.busbooking.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.example.busbooking.entity.Bus;
-
-public interface BusRepository extends JpaRepository<Bus, Long> {
-}
